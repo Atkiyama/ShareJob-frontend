@@ -130,6 +130,7 @@ function CompanyEdit({ registerCompanyList, handleUpdate }: CompanyEditProps) {
 	if (company) {
 		return (
 			<div>
+				<h2>企業名</h2>
 				<h1>
 					<input
 						type="text"

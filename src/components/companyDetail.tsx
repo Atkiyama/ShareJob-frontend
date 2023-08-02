@@ -9,6 +9,7 @@ function CompanyDetail({ company }: CompanyDetailProps) {
 	if (typeof company !== 'undefined') {
 		return (
 			<div>
+				<h2>企業名</h2>
 				<h1>{company.name}</h1>
 				<h2>概要</h2>
 				<div>{company.abstract}</div>
