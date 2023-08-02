@@ -11,7 +11,7 @@ function Top() {
 
 	return (
 		<div>
-			<h1>shareJobへようこそ!</h1>
+			<h1>ShareJobへようこそ!</h1>
 			本サイトでは主に以下のことができます
 			<ul>
 				<li>就職活動の状況の登録、管理</li>

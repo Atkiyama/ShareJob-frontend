@@ -130,6 +130,7 @@ function CompanyEdit({ registerCompanyList, handleUpdate }: CompanyEditProps) {
 	if (company) {
 		return (
 			<div>
+				<h2>概要</h2>
 				<h1>
 					<input
 						type="text"
@@ -171,7 +172,6 @@ function CompanyEdit({ registerCompanyList, handleUpdate }: CompanyEditProps) {
 						className="textarea-container"
 					/>
 				</div>
-
 				<button onClick={handleSave}>保存</button>
 				<button onClick={handleReturn}>戻る</button>
 			</div>
